@@ -1,22 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300;400&display=swap');
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 #banner {
-	width:70%;
+	width: 40%;
+	border-radius: 110px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
+	padding: 90px;
 }
 
 .principal{
 	background: #CCCCCC;
+	border-radius: 20px;
+	font-size: 20px;
 	padding: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+#missao {
+	color: rgb(180, 69, 69);
 }
 
 .titulo-principal {
 	padding-left: 20px;
 	text-align: center;
+	color: rgb(0, 0, 0);
 }
 
 .titulo-centralizado {
-	text-align: center
+	text-align: center;
+	font-size: 30px;
 }
 
 p {
@@ -24,20 +43,17 @@ p {
 }
 
 #missao {
-	font-size: 20px
-}
-
-em strong {
-	color: #FF0000;
+	font-size: 20px;
 }
 
 .itens {
-	font-style: italic
+	font-style: italic;
 }
 
 .beneficios {
 	background: #FFFFFF;
 	padding: 20px;
+	font-size: 20px;
 }
 
 ul {
@@ -48,5 +64,6 @@ ul {
 }
 
 .imagembeneficios {
-	width: 50%;
+	width: 30%;
+	border-radius: 20px;
 }
